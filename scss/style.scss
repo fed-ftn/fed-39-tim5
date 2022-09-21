@@ -35,12 +35,12 @@ body {
     
         background-color: rgb(212, 212, 255);
         border-radius: 11px;
-        padding: 1rem;
+        padding: 1.5rem;
         width: 60%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
-        gap: 1rem;
+        border: blue 1px solid;
+        gap: 2rem;
 
         div {
             display: flex;
