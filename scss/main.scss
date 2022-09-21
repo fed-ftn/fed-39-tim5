@@ -17,9 +17,36 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
+    padding: 30px;
 }
 
 label {
     display: block;
 }
 
+label select,
+label input {
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+select {
+    margin-left: 50px;
+}
+
+input[type="date"]:not(:last-child) {
+    margin-left: 50px;
+}
+
+input[type="text"] {
+    margin-left: 50px;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    width: 200px;
+    padding: 5px 0;
+}
