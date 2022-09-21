@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    h1 {
+        color: blue;
+    }
+
+    form {
+        input {
+            border: none;
+            padding: 0.5rem;
+            border-radius: 11px;
+        }
+        label, p {
+            font-size: 1.2rem;
+        }
+
+
+
+    
+        background-color: rgb(212, 212, 255);
+        border-radius: 11px;
+        padding: 1rem;
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        gap: 1rem;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input {
+                width: 50%;
+            }
+        }
+
+        .radno-vreme {
+            display: flex;
+            grid-column: 1/-1;
+        }
+
+        .submit {
+            grid-column: 2/3;
+            display: flex;
+            gap: 1rem;
+            input {
+                border: none;
+                border-radius: 4px;
+                background-color: rgb(233, 230, 230)
+            };
+        }
+    }
+}
